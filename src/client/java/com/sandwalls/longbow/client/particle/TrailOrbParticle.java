@@ -33,7 +33,7 @@ import org.jspecify.annotations.Nullable;
  * {@code Layer.TRANSLUCENT} 会走粒子图集（{@code TextureAtlas.LOCATION_PARTICLES}）
  * 和 Iris 白名单里的 {@code TRANSLUCENT_PARTICLE} 管线 —— 这条链是纯原版粒子通道，
  * 不碰 {@code RenderSetup.withTexture}，所以光影开着也能采到图（贴图直连管线那条路
- * 之前给星芒踩过坑，见 HANDOVER §7）。</p>
+ * 之前给星芒踩过坑，见 docs/实现原理.md §5.1）。</p>
  */
 public class TrailOrbParticle extends SingleQuadParticle {
 	/**

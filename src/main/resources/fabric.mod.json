@@ -3,8 +3,13 @@
 	"id": "longbow",
 	"version": "${version}",
 	"name": "Longbow - Arcfall Ballad",
-	"description": "长虹陨落之歌：彩虹长弓，蓄能超载、白框锁敌、原地起飞。",
-	"authors": ["SandWalls Fan Build"],
+	"description": "长虹陨落之歌（非官方粉丝复刻）：彩虹长弓，蓄能超载、白框锁敌、原地起飞。",
+	"authors": ["xrynh"],
+	"contact": {
+		"homepage": "https://github.com/xrynh/longbow",
+		"sources": "https://github.com/xrynh/longbow",
+		"issues": "https://github.com/xrynh/longbow/issues"
+	},
 	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {

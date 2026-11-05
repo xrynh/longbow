@@ -121,7 +121,7 @@ public final class ClientFxManager {
 	/*
 	 * 箭头星芒<b>不用贴图</b>：ENERGY_SWIRL（Iris 白名单里唯一"带 Sampler0 + 加光混合"的管线）实测能把四边形
 	 * 画出来（原版贴图会显示成一个暗方块），但采样我们自己的 128×128 星芒贴图时整片透明、什么都看不到
-	 * （细节见 HANDOVER §7 的排查记录）。所以星芒改成纯几何 + 顶点色 alpha 渐变，走已验证可用的
+	 * （细节见 docs/实现原理.md §5.1）。所以星芒改成纯几何 + 顶点色 alpha 渐变，走已验证可用的
 	 * {@link #FX_QUADS}（LIGHTNING 管线）批次，见 {@link #star}。
 	 */
 

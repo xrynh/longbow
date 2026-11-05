@@ -128,7 +128,7 @@ public abstract class AbstractArrowMixin {
 		int color = java.awt.Color.HSBtoRGB(hue / 255.0F, 0.9F, 1.0F) & 0xFFFFFF;
 		// 沿上一 tick 到当前位置补点：主笔尘埃，速度再快尾迹也连续。
 		// 彩色烟尘（自定义粒子 longbow:trail_smoke）已按主人要求下线，这里只留原版尘埃；
-		// 想加回来的话见 HANDOVER.md §7「烟尘为什么走客户端」——服务端 sendParticles
+		// 想加回来的话见 docs/实现原理.md §6——服务端 sendParticles
 		// 只发 32 格内的粒子（ServerLevel.java:1364），45 秒的拖尾大半会被丢掉。
 		int steps = Math.min(64, Math.max(4, (int) Math.ceil(delta.length() / 0.15)));
 		DustParticleOptions trailDust = new DustParticleOptions(color, 1.3F);
