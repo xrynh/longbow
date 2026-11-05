@@ -142,9 +142,10 @@ More detail:
   (BV1vbpd6gEPi, published 2026-10-12, part of the series "大肥鱼做模组") by
   [SandWalls](https://space.bilibili.com/3546643544673052).
   This project is a re-implementation of the effects shown there and is **not** the creator's official version.
-- The status names "幻" and "水火不侵" were coined by this project, corresponding to the held-bow buffs
-  demonstrated in the video. The video's "神秘控制面板" (entity control panel) and "时停模块" (time-stop module)
-  are **not implemented** here — see [docs/兼容性与局限.md](docs/兼容性与局限.md).
+- The names "长虹陨落之歌" (Arcfall Ballad), "虹" (Rainbow) and "幻" (Phantom) are carried over from the video;
+  only "水火不侵" (Fire and Water Immunity) was coined by this project.
+  The video's "神秘控制面板" (entity control panel) and "时停模块" (time-stop module) are **not implemented** here —
+  see [docs/兼容性与局限.md](docs/兼容性与局限.md).
 - Item textures are derived from the **vanilla bow texture** by per-pixel recolouring; copyright belongs to
   Mojang Studios / Microsoft.
 - Built with the [Fabric](https://fabricmc.net/) toolchain.
