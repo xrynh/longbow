@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.sandwalls.longbow.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractArrowMixin",
+    "AbstractArrowAccessor",
+    "PlayerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

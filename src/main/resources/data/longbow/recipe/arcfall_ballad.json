@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["ROY", "GCB", "PKW"],
+  "key": {
+    "R": "minecraft:red_dye",
+    "O": "minecraft:orange_dye",
+    "Y": "minecraft:yellow_dye",
+    "G": "minecraft:green_dye",
+    "C": "minecraft:cyan_dye",
+    "B": "minecraft:blue_dye",
+    "P": "minecraft:purple_dye",
+    "K": "minecraft:black_dye",
+    "W": "minecraft:white_dye"
+  },
+  "result": {"id": "longbow:arcfall_ballad", "count": 1}
+}

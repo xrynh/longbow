@@ -1,0 +1,14 @@
+{
+  "item.longbow.arcfall_ballad": "Arcfall Ballad",
+  "item.longbow.arcfall_longbow": "Arcfall Longbow",
+  "item.longbow.arcfall_longbow.desc1": "Charge the bow; overcharge doubles your destruction",
+  "item.longbow.arcfall_longbow.desc2": "Aim at a creature to show a white box, left-click to lock",
+  "item.longbow.arcfall_longbow.charge": "Charge: %s",
+  "item.longbow.arcfall_longbow.overload": "OVERLOAD!",
+  "item.longbow.arcfall_longbow.locked": "Locked: %s",
+  "itemGroup.longbow": "Arcfall Longbow",
+  "key.longbow.dash": "Arcfall Dash",
+  "key.longbow.prospect": "Arcfall Prospecting",
+  "effect.longbow.phantom": "Phantom",
+  "effect.longbow.immune": "Fire and Water Ward"
+}

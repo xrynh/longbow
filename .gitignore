@@ -1,0 +1,22 @@
+# ---- Gradle / 构建产物 ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- 本地开发环境，不属于源码 ----
+# HANDOVER.md 是本机的交接备忘（含本地绝对路径），不想公开就保持忽略；
+# 要公开就把这行删掉。
+HANDOVER.md
+fix/
+scratch/
+backup-*/
+*.log
+
+# ---- IDE / 运行目录 ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+run/
+out/

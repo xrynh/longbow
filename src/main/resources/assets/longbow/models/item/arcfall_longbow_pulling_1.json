@@ -1,0 +1,6 @@
+{
+  "parent": "longbow:item/arcfall_longbow",
+  "textures": {
+    "layer0": "longbow:item/arcfall_longbow_pulling_1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "longbow",
+	"version": "${version}",
+	"name": "Longbow - Arcfall Ballad",
+	"description": "长虹陨落之歌：彩虹长弓，蓄能超载、白框锁敌、原地起飞。",
+	"authors": ["SandWalls Fan Build"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.sandwalls.longbow.LongbowMod"],
+		"client": ["com.sandwalls.longbow.client.LongbowClient"]
+	},
+	"mixins": [
+		{"config": "longbow.mixins.json", "environment": "*"}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

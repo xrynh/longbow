@@ -1,0 +1,14 @@
+{
+  "item.longbow.arcfall_ballad": "虹",
+  "item.longbow.arcfall_longbow": "长虹陨落之歌",
+  "item.longbow.arcfall_longbow.desc1": "满弓蓄能，超载后破坏力倍增",
+  "item.longbow.arcfall_longbow.desc2": "准星指向生物即显示白框，左键锁定后自动追踪",
+  "item.longbow.arcfall_longbow.charge": "蓄能：%s",
+  "item.longbow.arcfall_longbow.overload": "超载！",
+  "item.longbow.arcfall_longbow.locked": "已锁定：%s",
+  "itemGroup.longbow": "长虹陨落之歌",
+  "key.longbow.dash": "红虹疾行",
+  "key.longbow.prospect": "红虹探矿模式",
+  "effect.longbow.phantom": "幻",
+  "effect.longbow.immune": "水火不侵"
+}
