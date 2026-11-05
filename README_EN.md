@@ -7,7 +7,10 @@ actually draw and shoot: charge-to-overload, white-box target locking, homing ar
 crater carved along the arrow's flight path — plus a full client-side VFX layer: a 45-second rainbow
 wireframe trail, a four-pointed star riding on the arrow, and coloured orbs drifting around the trail.
 
-![Arcfall Ballad Longbow](docs/images/hero.jpg)
+<p align="center">
+  <img src="docs/images/day.jpg" width="49%" alt="Daytime: rainbow trail, arrow star and the blast">
+  <img src="docs/images/night.jpg" width="49%" alt="Night: golden trajectory and star under the moon">
+</p>
 
 > **Unofficial fan project.** The design originates from the video series "大肥鱼做模组" by the Chinese
 > creator [SandWalls](https://space.bilibili.com/3546643544673052). This project is not affiliated with
@@ -43,8 +46,6 @@ wireframe trail, a four-pointed star riding on the arrow, and coloured orbs drif
 | Arrow star | Pure geometry: a four-pointed star with 4 long spikes, 4 diagonal spikes and two halo rings, world size compensated by distance so it stays a constant size on screen | follows the arrow |
 | Trail orbs | Custom particle `longbow:trail_orb`: translucent little light orbs scattered in a 0.7–3.8 block shell around the path, with breathing and a slow upward drift | 15 s |
 | Lock boxes | 3D wireframe, drawn through the same glowing-quad batch | follows the target |
-
-![VFX detail](docs/images/fx-detail.png)
 
 All four effects above were verified **with shaders enabled (Iris + Complementary)**. The pitfalls we hit
 along the way are written up in [docs/实现原理.md](docs/实现原理.md) (Chinese) — if you are trying to make
