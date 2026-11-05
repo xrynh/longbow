@@ -25,6 +25,8 @@ wireframe trail, a four-pointed star riding on the arrow, and coloured orbs drif
 - Target locking: whatever the crosshair hits gets a white box (client-side 64-block raycast). Left click locks it, swaps to a thicker box, and notifies the server (128-block cap)
 - Homing: once locked, the arrow bends its velocity toward the target by 0.45 each tick. Non-living entities (end crystals, etc.) can be locked too
 - Destruction: on impact, a cylinder is carved along the **flight direction** — radius 2 → 32, length 8 → 128 blocks (4×4×8 chunks at full charge), executed in frames at 6 000 blocks per tick
+- Damage to mobs: a direct hit uses vanilla arrow damage (the bow auto-enchants Power V and friends); on impact every living thing **inside the cylinder is flat-out killed with `hurtServer(1e9)`** — invulnerability frames are zeroed first, so there is no damage-immunity window — with a radius of max(3, blast radius): 3 blocks on the light tier, 32 at full charge
+- Kill credit: the kill uses a damage source carrying the shooter (`source(DamageTypes.MAGIC, player)`), so **mobs killed by the blast rather than the arrow still drop XP and count as your kills**; the shooter themself is excluded from the kill list
 - Pierce: hitting an entity grants a 0.48–24 block pierce budget based on charge; the budget is spent by actual distance travelled and the arrow despawns when it runs out
 - Zero spread, no air drag (water and other vanilla physics still apply)
 - Hitting an Enderman uses a `playerAttack` damage source, sidestepping vanilla's "projectile hit → teleport 64 times" protection
@@ -131,6 +133,7 @@ More detail:
 - A full-charge shot scans 4×4×8 chunks of blocks and will tax low-end machines (the 6 000/tick framing exists for this)
 - Up close the trail reads as a chain of boxes rather than a continuous light band
 - Only verified in single player with Iris shaders; multiplayer, other shader packs and other MC versions are untested
+- The blast kill only excludes the shooter: on a server, a teammate standing inside the cylinder **will be killed too**
 
 ## Credits
 
